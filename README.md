@@ -5,3 +5,8 @@
 * 3 sum : https://leetcode.com/problems/3sum/
 * 3 sum closest : https://leetcode.com/problems/3sum-closest/
 * 2 sum : https://leetcode.com/problems/two-sum/
+* Rotate Array : https://leetcode.com/problems/rotate-array/
+* Contains Duplicate : https://leetcode.com/problems/contains-duplicate/
+* Best Time to Buy and Sell Stock II : https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+* Single Number : https://leetcode.com/problems/single-number/
+* Intersection of Two Arrays II : https://leetcode.com/problems/intersection-of-two-arrays-ii/
