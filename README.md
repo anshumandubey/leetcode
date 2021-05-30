@@ -10,3 +10,7 @@
 * Best Time to Buy and Sell Stock II : https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 * Single Number : https://leetcode.com/problems/single-number/
 * Intersection of Two Arrays II : https://leetcode.com/problems/intersection-of-two-arrays-ii/
+* Plus one : https://leetcode.com/problems/plus-one
+* Move zeroes : https://leetcode.com/problems/move-zeroes
+* Vaiid Sudoku : https://leetcode.com/problems/valid-sudoku/
+* Rotate Image : https://leetcode.com/problems/rotate-image/
