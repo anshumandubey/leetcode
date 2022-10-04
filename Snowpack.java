@@ -3,7 +3,6 @@ package com.dubey.leetcode;
 import java.util.Arrays;
 
 public class Snowpack {
-
     /*
      ** Find the amount of snow that could be captured.
      */
@@ -35,9 +34,8 @@ public class Snowpack {
      */
     public static boolean doTestsPass() {
         boolean result = true;
-		result = computeSnowpack(new Integer[]{0, 1, 3, 0, 1, 2, 0, 4, 2, 0, 3, 0}) == 13;
+		return computeSnowpack(new Integer[]{0, 1, 3, 0, 1, 2, 0, 4, 2, 0, 3, 0}) == 13;
 //        result &= computeSnowpack(new Integer[]{1, 8, 6, 2, 5, 4, 8, 3, 7}) == 49;
-        return result;
     }
 
     /*
