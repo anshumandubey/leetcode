@@ -18,7 +18,7 @@ public class ReverseString {
     }
 
     public static void main(String[] args) {
-        char[] s = {'H','a','n','n','a','h'};
+        char[] s = {'H', 'a', 'n', 'n', 'a', 'h'};
         new Solution().reverseString(s);
         System.out.println(Arrays.toString(s));
     }

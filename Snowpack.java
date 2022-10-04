@@ -34,7 +34,7 @@ public class Snowpack {
      */
     public static boolean doTestsPass() {
         boolean result = true;
-		return computeSnowpack(new Integer[]{0, 1, 3, 0, 1, 2, 0, 4, 2, 0, 3, 0}) == 13;
+        return computeSnowpack(new Integer[] {0, 1, 3, 0, 1, 2, 0, 4, 2, 0, 3, 0}) == 13;
 //        result &= computeSnowpack(new Integer[]{1, 8, 6, 2, 5, 4, 8, 3, 7}) == 49;
     }
 

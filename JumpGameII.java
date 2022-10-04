@@ -10,8 +10,9 @@ public class JumpGameII {
         int index = 0, noOfJumps = 0;
         int length = nums.length - 1;
 
-        if (length < 1)
+        if (length < 1) {
             return 0;
+        }
 
         while (index < length) {
             index += optimalJump(nums, index);
