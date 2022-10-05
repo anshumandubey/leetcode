@@ -13,7 +13,7 @@ public class FindIfPathExists {
             if (start == end) {
                 return true;
             }
-            for (int[] edge: edges) {
+            for (int[] edge : edges) {
                 if (graph.containsKey(edge[0])) {
                     graph.get(edge[0]).add(edge[1]);
                 } else {
@@ -39,7 +39,7 @@ public class FindIfPathExists {
 
     public static void main(String[] args) {
         int n = 6, start = 0, end = 5;
-        int[][] edges = {{0,1},{0,2},{3,5},{5,4},{4,3}};
+        int[][] edges = {{0, 1}, {0, 2}, {3, 5}, {5, 4}, {4, 3}};
         System.out.println(new Solution().validPath(n, edges, start, end));
     }
 }

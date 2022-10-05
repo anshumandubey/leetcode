@@ -1,8 +1,6 @@
 package com.dubey.leetcode;
 
 public class AddTwoNumbers {
-
-
     public static class ListNode {
         int val;
         ListNode next;

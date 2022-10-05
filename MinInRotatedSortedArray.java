@@ -7,7 +7,7 @@ public class MinInRotatedSortedArray {
             if (start == end) {
                 return nums[start];
             }
-            while (start != end -1) {
+            while (start != end - 1) {
                 int mid = (start + end) / 2;
                 int minVal = min(start, mid, end, nums);
                 if (minVal == -1) {
@@ -33,7 +33,7 @@ public class MinInRotatedSortedArray {
     }
 
     public static void main(String[] args) {
-        int[] nums = {11,13,15,17};
+        int[] nums = {11, 13, 15, 17};
         System.out.println(new Solution().findMin(nums));
     }
 }
