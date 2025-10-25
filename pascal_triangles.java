@@ -1,4 +1,9 @@
-class Solution {
+package com.dubey.leetcode;
+
+import java.util.ArrayList;
+import java.util.List;
+
+class PascalTriangle {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>>ans= new ArrayList<>();
         List<Integer>l1=new ArrayList<>();

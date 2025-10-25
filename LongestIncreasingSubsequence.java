@@ -1,4 +1,8 @@
-public class Solution {
+package com.dubey.leetcode;
+
+import java.util.Arrays;
+
+public class LongestIncreasingSubsequence {
     public int lengthOfLIS(int[] nums) {
         int[] t = new int[nums.length];
         int len = 0;

@@ -1,3 +1,5 @@
+package com.dubey.leetcode;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -8,7 +10,7 @@
  * }
  */
 
-public class Solution {
+public class LowestCommonAncestorOfTree {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root.val > p.val && root.val > q.val) {
             return lowestCommonAncestor(root.left, p, q);

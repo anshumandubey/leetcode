@@ -1,3 +1,5 @@
+package com.dubey.leetcode;
+
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         int i,s,e,j,m,a;
