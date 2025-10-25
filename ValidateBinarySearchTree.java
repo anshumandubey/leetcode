@@ -1,3 +1,7 @@
+package com.dubey.leetcode;
+
+import java.util.Stack;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -13,7 +17,7 @@
  * }
  * }
  */
-public class Solution {
+public class ValidateBinarySearchTree {
     public boolean isValidBST(TreeNode root) {
         Stack<TreeNode> stack = new Stack();
         Integer range = null;

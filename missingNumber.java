@@ -1,4 +1,6 @@
-class Solution {
+package com.dubey.leetcode;
+
+class MissingNumber {
     public int missingNumber(int[] nums) {
         int ans=0;
         int suma=0;

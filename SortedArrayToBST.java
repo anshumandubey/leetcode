@@ -1,3 +1,5 @@
+package com.dubey.leetcode;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -13,7 +15,7 @@
  *     }
  * }
  */
-class Solution {
+class SortedArrayToBST {
     public TreeNode sortedArrayToBST(int[] nums) {
         int n=nums.length;
         if(n==0 || nums==null)  return null;
